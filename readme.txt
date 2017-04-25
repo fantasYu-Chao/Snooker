@@ -1,7 +1,7 @@
 *** To compile and run the source, you need to:
 
-1. Unzip the "CE812Deliverable.zip";
-2. Enter the unzipped file;
+1. Download the source code doucument "CE812Deliverable";
+2. Enter the "CE812Deliverable";
 3. Enter the file "snooker2D" under the path of file "src";
 4. Select all the ".java" java files, and copy;
 5. Add a new project in Eclipse or other development environments;
