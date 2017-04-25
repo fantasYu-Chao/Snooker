@@ -1,7 +1,7 @@
-*** To execute the jar file, you need to double-click the jar file, or to:
+*** To run the game by executing the jar file, you need to double-click the jar file, or to:
 
 1. Open the console of PC (for Windows, press "start", and run "cmd.exe");
-2. Enter the "java -jar PATH\CE812Deliverable.jar" in console (PATH is the current path of jar file).
+2. Enter the "java -jar PATH\CE812Deliverable.jar" in console (PATH is the current path of the jar file).
 
 *** To compile and run the source, you need to:
 
