@@ -1,8 +1,7 @@
 package snooker2D;
 
 import snooker2D.balls.Billiard;
-import snooker2D.colors.Brown;
-import snooker2D.colors.Pink;
+import snooker2D.colors.GameColors;
 import snooker2D.table.Barrier;
 import snooker2D.table.Barrier_Curve;
 import snooker2D.table.Barrier_StraightLine;
@@ -104,9 +103,9 @@ public class BasicEngineForSnooker {
         billiards.add(new Billiard(Color.WHITE, serviceLine - 0.01, WORLD_HEIGHT / 2 - 0.18, 0, 0, ballSize / 2, ballWeight, true, 0));
         billiards.add(new Billiard(Color.YELLOW, yellowPos, 0, 0, ballSize / 2, ballWeight, true, 2));
         billiards.add(new Billiard(Color.GREEN, greenPos, 0, 0, ballSize / 2, ballWeight, true, 3));
-        billiards.add(new Billiard(new Brown(), brownPos, 0, 0, ballSize / 2, ballWeight, true, 4)); // brown ball
+        billiards.add(new Billiard(GameColors.brown(), brownPos, 0, 0, ballSize / 2, ballWeight, true, 4)); // brown ball
         billiards.add(new Billiard(Color.BLUE, bluePos, 0, 0, ballSize / 2, ballWeight, true, 5));
-        billiards.add(new Billiard(new Pink(), pinkPos, 0, 0, ballSize / 2, ballWeight, true, 6)); // pink ball
+        billiards.add(new Billiard(GameColors.pink(), pinkPos, 0, 0, ballSize / 2, ballWeight, true, 6)); // pink ball
         billiards.add(new Billiard(Color.BLACK, blackPos, 0, 0, ballSize / 2, ballWeight, true, 7));
 
         // Red billiards starts from no.8 end with no.22
