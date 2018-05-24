@@ -1,6 +1,6 @@
 *** To compile and run the source, you need to:
 
-1. Unzip the "SnookerGame.zip";
+1. Unzip the "Snooker-master.zip";
 2. Enter the unzipped file;
 3. Enter the file "snooker2D" under the path of file "src";
 4. Select all the ".java" java files, and copy;
